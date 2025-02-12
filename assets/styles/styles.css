@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before:not(i) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.optionsContainer {
+  border: 2px solid lime;
+  background-color: rgba(0, 255, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.mainContainer {
+  border: 2px solid lime;
+  background-color: rgba(0, 255, 0, 0.3);
+  justify-content: space-evenly;
+  height: 350px;
+  display: flex;
+}
+.mainContainer .leftSideContainer {
+  border: 2px solid lime;
+  background-color: rgba(0, 255, 0, 0.3);
+  margin: 5px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.mainContainer .leftSideContainer .inputContainer {
+  margin-top: 10px;
+  padding: 20px;
+}
+.mainContainer .rightSideContainer {
+  border: 2px solid lime;
+  background-color: rgba(0, 255, 0, 0.3);
+  height: 300px;
+  margin-top: 30px;
+}
+.mainContainer .rightSideContainer .weatherLocation {
+  height: 80px;
+  border: 2px solid lime;
+  background-color: rgba(0, 255, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+.mainContainer .rightSideContainer .weatherLocation img {
+  height: 30px;
+  width: 30px;
+}
+.mainContainer .rightSideContainer .weatherConditions {
+  border: 2px solid lime;
+  background-color: rgba(0, 255, 0, 0.3);
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  gap: 10px;
+  flex-direction: row;
+}
+.mainContainer .rightSideContainer .weatherConditions .images {
+  border: 2px solid lime;
+  background-color: rgba(0, 255, 0, 0.3);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainContainer .rightSideContainer .days {
+  border: 2px solid lime;
+  background-color: rgba(0, 255, 0, 0.3);
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=styles.css.map */
